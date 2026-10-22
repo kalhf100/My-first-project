@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>اتصل بنا - موقعي الأول</title>
+<style>
+body {
+    font-family: Tahoma, Arial, sans-serif;
+    background: #eef3f9;
+    margin: 0;
+    text-align: center;
+}
+nav {
+    background: #163b65;
+    padding: 20px;
+}
+nav a {
+    color: white;
+    margin: 12px;
+    text-decoration: none;
+}
+.card {
+    background: white;
+    max-width: 650px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px #00000015;
+}
+h1 { color: #163b65; }
+p { line-height: 2; }
+.button {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+</style>
+</head>
+<body>
+
+<nav>
+    <a href="index.html">الرئيسية</a>
+    <a href="about.html">من نحن</a>
+    <a href="contact.html">اتصل بنا</a>
+</nav>
+
+<div class="card">
+    <h1>اتصل بنا</h1>
+    <p>مرحبًا بك في موقعي الإلكتروني.</p>
+    <p>يمكنك متابعة مشاريعي عبر GitHub.</p>
+
+    <a class="button"
+       href="https://github.com/kalhf100">
+       زيارة حسابي على GitHub
+    </a>
+</div>
+
+</body>
+</html>
